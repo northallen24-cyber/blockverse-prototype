@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BlockVerse Prototype</title>
+    <meta
+      name="description"
+      content="BlockVerse — minimal voxel sandbox prototype."
+    />
+  </head>
+  <body>
+    <div id="app"></div>
+    <div id="game-shell">
+      <canvas id="game-canvas"></canvas>
+      <div id="crosshair"></div>
+      <div id="hud">
+        <div id="title">BlockVerse</div>
+        <div id="status">Нажмите для входа в игру</div>
+        <div id="quickbar"></div>
+      </div>
+      <div id="inventory-panel" class="hidden"></div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
